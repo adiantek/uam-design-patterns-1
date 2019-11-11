@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="564e44cc-8f63-42d4-afb4-20fbed3682e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/builder/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/BankingProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/BankingProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/src/main/java/com/uam/decorator/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/src/main/java/com/uam/decorator/fastfood/Cheeseburger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/src/main/java/com/uam/decorator/fastfood/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/src/main/java/com/uam/decorator/fastfood/ProductWithExtraCheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/src/main/java/com/uam/decorator/fastfood/ProductWithExtraMeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/transaction/TransactionActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/transaction/TransactionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/transaction/TransactionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/transaction/TransactionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/transaction/TransactionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-method/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/factory-method/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/LoggerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/LoggerNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object-pool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/object-pool/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/ObjectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/ObjectPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton/src/main/java/com/uam/singleton/properties/PropertyPlaceholder.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/src/main/java/com/uam/singleton/properties/PropertyPlaceholder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/DummyDataBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/EvaluationStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/Exam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/ExamAnswer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/ExamQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/FinalExamEvaluationStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/FinishedExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/Grade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/RegularExamEvaluationStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-method/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/AbstractLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/ConsoleLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/FileLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/Level.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/LoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/LoggerNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitor/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/CostCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/PackOfToySoldiers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/ProductVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/ShopActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/TeddyBear.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/builder/target/" />
+    <ignored path="$PROJECT_DIR$/factory-method/target/" />
+    <ignored path="$PROJECT_DIR$/singleton/target/" />
+    <ignored path="$PROJECT_DIR$/prototype/target/" />
+    <ignored path="$PROJECT_DIR$/lazy-singleton/target/" />
+    <ignored path="$PROJECT_DIR$/early-singleton/target/" />
+    <ignored path="$PROJECT_DIR$/adapter/target/" />
+    <ignored path="$PROJECT_DIR$/facade/target/" />
+    <ignored path="$PROJECT_DIR$/decorator/target/" />
+    <ignored path="$PROJECT_DIR$/template-method/target/" />
+    <ignored path="$PROJECT_DIR$/state/target/" />
+    <ignored path="$PROJECT_DIR$/visitor/target/" />
+    <ignored path="$PROJECT_DIR$/adapter-solved/target/" />
+    <ignored path="$PROJECT_DIR$/builder-solved/target/" />
+    <ignored path="$PROJECT_DIR$/decorator-solved/target/" />
+    <ignored path="$PROJECT_DIR$/state-solved/target/" />
+    <ignored path="$PROJECT_DIR$/strategy-solved/target/" />
+    <ignored path="$PROJECT_DIR$/strategy/target/" />
+    <ignored path="$PROJECT_DIR$/pool-of-objects/target/" />
+    <ignored path="$PROJECT_DIR$/ObjectPool/target/" />
+    <ignored path="$PROJECT_DIR$/object-pool/target/" />
+    <ignored path="$PROJECT_DIR$/proxy/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/singleton/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>abst</find>
+      <find>withdrawIfPossible</find>
+      <find>getAllProducts</find>
+      <find>expirationDate</find>
+      <find>getCreditAmount</find>
+      <find>&quot;Pln</find>
+      <find>generateProductNumber</find>
+      <find>Double</find>
+      <find>in</find>
+      <find>intere</find>
+      <find>Interest</find>
+      <find>interest</find>
+      <find>private Interest interest;</find>
+      <find>isPayed = tru</find>
+      <find>DynamicInterest.INSTANCE</find>
+      <find>0</find>
+      <find>double</find>
+      <find>bank</find>
+      <find>fasade</find>
+      <find>protected</find>
+      <find>first</find>
+      <find>log4j</find>
+      <find>addObject</find>
+      <find>create</find>
+      <find>TemporalAmount</find>
+      <find>public</find>
+      <find>final</find>
+      <find>google</find>
+      <find>design-patterns-template</find>
+      <find>target</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\PatrykKrol\Desktop\UAM\bank\adapter-solved</dir>
+      <dir>C:\Users\PatrykKrol\Desktop\UAM\bank\adapter-solved\src\main\java</dir>
+      <dir>C:\Users\PatrykKrol\Desktop\UAM\bank\src\main\java\entities</dir>
+      <dir>C:\Users\PatrykKrol\Desktop\UAM\bank\adapter-solved\src\main\java\com\uam\adapter</dir>
+      <dir>C:\Users\PatrykKrol\Desktop\UAM\bank\facade\src\main\java\com\uam\facade\transaction</dir>
+      <dir>C:\Users\PatrykKrol\Desktop\UAM\design-patterns-template\factory-method\src\main\java\com\uam\factorymethod\logger</dir>
+      <dir>C:\Users\PatrykKrol\Desktop\UAM\design-patterns-template\template-method\src\main\java\com\uam\templatemethod</dir>
+      <dir>C:\Users\PatrykKrol\Desktop\UAM\repo\uam-design-patterns\.idea</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.todo/3. Factory Method" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/uam/decorator/fastfood/Cheeseburger.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/uam/decorator/fastfood/ProductWithExtraMeat.java" />
+        <option value="$PROJECT_DIR$/.todo/4. Decorator" />
+        <option value="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/transaction/TransactionActivity.java" />
+        <option value="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/transaction/TransactionMapper.java" />
+        <option value="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/transaction/TransactionRepository.java" />
+        <option value="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/transaction/TransactionFacade.java" />
+        <option value="$PROJECT_DIR$/facade/src/main/java/com/uam/facade/Runner.java" />
+        <option value="$PROJECT_DIR$/.todo/5. Facade" />
+        <option value="$PROJECT_DIR$/.todo/6. Template Method" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/DummyDataBuilder.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/FinishedExam.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/exam/Exam.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/uam/strategy/Runner.java" />
+        <option value="$PROJECT_DIR$/.todo/7. Strategy" />
+        <option value="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/Product.java" />
+        <option value="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/PackOfToySoldiers.java" />
+        <option value="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/TeddyBear.java" />
+        <option value="$PROJECT_DIR$/.todo/8. Visitor" />
+        <option value="$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/ShopActivity.java" />
+        <option value="$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/packageName/Car.java" />
+        <option value="$PROJECT_DIR$/.todo/9. Object Pool" />
+        <option value="$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/packageName/PoolingObject.java" />
+        <option value="$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/packageName/ObjectPool.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/TransactionalRepositoryProxy.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/CacheProxy.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/Repository.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/CacheRepositoryProxy.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/DataObjectFlyweightFactory.java" />
+        <option value="$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/AccountDirector.java" />
+        <option value="$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/account/AccountDirector.java" />
+        <option value="$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/loan/LoanDirector.java" />
+        <option value="$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/investment/LoanDirector.java" />
+        <option value="$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/investment/InvestmentDirector.java" />
+        <option value="$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/BankingProduct.java" />
+        <option value="$PROJECT_DIR$/singleton/src/main/java/com/uam/singleton/Runner.java" />
+        <option value="$PROJECT_DIR$/singleton/src/main/java/com/uam/singleton/properties/PropertyPlaceholder.java" />
+        <option value="$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/Environment.java" />
+        <option value="$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/Runner.java" />
+        <option value="$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/LoggerFactory.java" />
+        <option value="$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/ObjectPool.java" />
+        <option value="$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/tools/Tool.java" />
+        <option value="$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/tools/ToolObjectPool.java" />
+        <option value="$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/Runner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/object-pool/pom.xml" />
+        <option value="$PROJECT_DIR$/factory-method/pom.xml" />
+        <option value="$PROJECT_DIR$/builder/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="uam-design-patterns-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uam-design-patterns-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uam-design-patterns-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uam-design-patterns-1" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uam-design-patterns-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uam-design-patterns-1" type="462c0819:PsiDirectoryNode" />
+              <item name="factory-method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uam-design-patterns-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uam-design-patterns-1" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PatrykKrol\Desktop\UAM\design-patterns-template\builder\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.uam.decorator" />
+      <recent name="com.uam.builder" />
+      <recent name="com.uam.adapter" />
+      <recent name="com.uam.decorator.product" />
+      <recent name="com.uam.facade" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PatrykKrol\Desktop\UAM\design-patterns-template\template-method\src\main\java\com\uam\templatemethod\logger" />
+      <recent name="C:\Users\PatrykKrol\Desktop\UAM\design-patterns-template\template-method\src\main\java\com\uam\templatemethod" />
+      <recent name="C:\Users\PatrykKrol\Desktop\UAM\design-patterns-template\factory-method\src\main\java\com\uam\factorymethod" />
+      <recent name="C:\Users\PatrykKrol\Desktop\UAM\bank\state\src\main\java" />
+      <recent name="C:\Users\PatrykKrol\Desktop\UAM\bank" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.uam.decorator.fastfood" />
+      <recent name="com.uam.builder" />
+      <recent name="com.uam.poolofobjects" />
+      <recent name="com.uam.visitor" />
+      <recent name="com.uam.strategy.exam" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.uam.poolofobjects.packageName" />
+      <recent name="com.uam.visitor.toyshop" />
+      <recent name="exam" />
+      <recent name="com.uam.facade.transaction" />
+      <recent name="interests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Runner (2)">
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uam.strategy.Runner" />
+      <module name="strategy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uam.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uam.factorymethod.Runner" />
+      <module name="factory-method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uam.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uam.poolofobjects.Runner" />
+      <module name="object-pool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uam.poolofobjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uam.singleton.Runner" />
+      <module name="singleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uam.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankingProductBuilderTest.shouldHaveNoAccessibleConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="builder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uam.builder.product.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.uam.builder.product" />
+      <option name="MAIN_CLASS_NAME" value="com.uam.builder.product.BankingProductBuilderTest" />
+      <option name="METHOD_NAME" value="shouldHaveNoAccessibleConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner (2)" />
+        <item itemvalue="Application.Runner (3)" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Runner (1)" />
+        <item itemvalue="JUnit.BankingProductBuilderTest.shouldHaveNoAccessibleConstructor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="564e44cc-8f63-42d4-afb4-20fbed3682e1" name="Default Changelist" comment="" />
+      <created>1566725906058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566725906058</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DecoratorTest - 2019.08.27 at 22h 02m 01s.xml">
+      <configuration name="DecoratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankingProductBuilderTest_shouldBuildCorrectBankingProduct - 2019.10.05 at 17h 21m 00s.xml">
+      <configuration name="BankingProductBuilderTest.shouldBuildCorrectBankingProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankingProductBuilderTest_shouldBuildCorrectBankingProduct - 2019.10.05 at 17h 22m 17s.xml">
+      <configuration name="BankingProductBuilderTest.shouldBuildCorrectBankingProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankingProductBuilderTest_shouldBuildCorrectBankingProduct - 2019.10.05 at 17h 22m 39s.xml">
+      <configuration name="BankingProductBuilderTest.shouldBuildCorrectBankingProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankingProductBuilderTest_shouldBuildCorrectBankingProduct - 2019.10.05 at 17h 52m 16s.xml">
+      <configuration name="BankingProductBuilderTest.shouldBuildCorrectBankingProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankingProductBuilderTest_shouldHaveNoAccessibleConstructor - 2019.10.05 at 18h 01m 18s.xml">
+      <configuration name="BankingProductBuilderTest.shouldHaveNoAccessibleConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankingProductBuilderTest_shouldHaveNoAccessibleConstructor - 2019.10.05 at 18h 03m 05s.xml">
+      <configuration name="BankingProductBuilderTest.shouldHaveNoAccessibleConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankingProductBuilderTest_shouldHaveNoAccessibleConstructor - 2019.10.05 at 18h 18m 19s.xml">
+      <configuration name="BankingProductBuilderTest.shouldHaveNoAccessibleConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankingProductBuilderTest_shouldHaveNoAccessibleConstructor - 2019.10.05 at 18h 18m 42s.xml">
+      <configuration name="BankingProductBuilderTest.shouldHaveNoAccessibleConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankingProductBuilderTest_shouldHaveNoAccessibleConstructor - 2019.10.05 at 18h 19m 05s.xml">
+      <configuration name="BankingProductBuilderTest.shouldHaveNoAccessibleConstructor" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.30559757" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.39770868" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4893617" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.2624811" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/visitor/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/Product.java" />
+    <entry file="file://$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/PackOfToySoldiers.java" />
+    <entry file="file://$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/TeddyBear.java" />
+    <entry file="file://$PROJECT_DIR$/.todo/8. Visitor" />
+    <entry file="file://$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/ShippingCostCalculatorVisitor.java" />
+    <entry file="file://$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/toyshop/ShopActivity.java" />
+    <entry file="file://$PROJECT_DIR$/visitor/src/main/java/com/uam/visitor/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/packageName/CarObjectPool.java" />
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/packageName/Car.java" />
+    <entry file="file://$PROJECT_DIR$/.todo/9. Object Pool" />
+    <entry file="file://$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/LoggerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/ConsoleLogger.java" />
+    <entry file="file://$PROJECT_DIR$/template-method/src/main/java/com/uam/templatemethod/logger/AbstractLogger.java" />
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/packageName/PoolingObject.java" />
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/packageName/ObjectPool.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/Repository.java" />
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/DataObjectFlyweightFactory.java" />
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/CacheRepositoryProxy.java" />
+    <entry file="file://$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/investment/InvestmentDirector.java" />
+    <entry file="file://$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/account/AccountDirector.java" />
+    <entry file="file://$PROJECT_DIR$/builder/src/main/java/com/uam/builder/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/src/main/java/com/uam/builder/product/BankingProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/resources/properties_1.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/resources/properties_2.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/java/com/uam/singleton/properties/PropertyPlaceholder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/java/com/uam/singleton/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/LoggerNotFoundException.java" />
+    <entry file="file://$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/FileLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-2019-11-11-errors" />
+    <entry file="file://$PROJECT_DIR$/log-2019-11-11-infos" />
+    <entry file="file://$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/ConsoleLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/logger/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/PoolingObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/tools/Toll.java" />
+    <entry file="jar://C:/oprogramowanie/Java/jdk1.8.0_201/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="446" column="19" selection-start-line="446" selection-start-column="19" selection-end-line="446" selection-end-column="19" />
+          <folding>
+            <element signature="e#17088#17089#0" expanded="true" />
+            <element signature="e#17123#17124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/tools/ToolObjectPool.java" />
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/tools/Tool.java" />
+    <entry file="file://$PROJECT_DIR$/factory-method/src/main/java/com/uam/factorymethod/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object-pool/src/main/java/com/uam/poolofobjects/ObjectPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object-pool/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory-method/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>proxy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
