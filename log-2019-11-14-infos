@@ -1,0 +1,3 @@
+2019-11-14T08:10:07.084Z [com.uam.factorymethod.Runner]: Welcome in prod
+2019-11-14T08:10:07.110Z [com.uam.factorymethod.Runner]: First text to log as info
+2019-11-14T08:10:07.116Z [com.uam.factorymethod.Runner]: Second text to log as info
