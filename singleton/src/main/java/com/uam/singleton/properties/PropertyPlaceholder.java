@@ -10,11 +10,20 @@ import java.util.concurrent.TimeUnit;
 
 public class PropertyPlaceholder {
 
+    private static PropertyPlaceholder INSTANCE = null;
+
+    public static PropertyPlaceholder getInstance() {
+        if (INSTANCE == null) {
+            INSTANCE = new PropertyPlaceholder();
+        }
+        return INSTANCE;
+    }
+
     private final List<String> FILES = ImmutableList.of("properties_1.properties", "properties_2.properties");
 
     private final Properties properties = new Properties();
 
-    public PropertyPlaceholder() {
+    private PropertyPlaceholder() {
         FILES.forEach(this::loadProperties);
     }
 
